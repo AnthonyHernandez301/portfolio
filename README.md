@@ -16,7 +16,7 @@ This is a personal portfolio website built with HTML, CSS, and Flexbox.
   A page displaying my projects with descriptions and a download link for my resume.
 
 - **Contact:**  
-  A navigation link that opens the user's default email client.
+  A page where the user can cantact me after submiting the form.
 
 ## Technologies Used
 

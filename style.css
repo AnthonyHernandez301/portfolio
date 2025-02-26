@@ -4,14 +4,14 @@
   
   body {
     margin: 0;
-    font-family: 'League Spartan', sans-serif;
-    background: #212A31;
-    color: #D3D9D4;
+    font-family: "League Spartan", sans-serif;
+    background: #212a31;
+    color: #d3d9d4;
   }
   
   .navbar {
-    background: #124E66;
-    color: #D3D9D4;
+    background: #124e66;
+    color: #d3d9d4;
   }
   
   .navbar ul {
@@ -30,7 +30,7 @@
   .navbar a {
     display: block;
     padding: 15px 20px;
-    color: #D3D9D4;
+    color: #d3d9d4;
     text-decoration: none;
     font-size: 20px;
   }
@@ -47,7 +47,7 @@
     justify-content: center;
     gap: 40px;
     padding: 40px;
-    background: #2E3944;
+    background: #2e3944;
     min-height: 60px;
   }
   
@@ -67,8 +67,8 @@
   .home-text {
     flex: 2;
     max-width: 600px;
-    background-color: #2E3944;
-    color: #D3D9D4;
+    background-color: #2e3944;
+    color: #d3d9d4;
     padding: 20px;
     border-radius: 4px;
   }
@@ -97,8 +97,8 @@
     flex: 1;
     min-width: 280px;
     max-width: 500px;
-    background-color: #2E3944;
-    color: #D3D9D4;
+    background-color: #2e3944;
+    color: #d3d9d4;
     padding: 20px;
     border-radius: 4px;
   }
@@ -107,7 +107,7 @@
   .skills h2 {
     font-size: 20px;
     margin-bottom: 20px;
-    border-bottom: 2px solid #D3D9D4;
+    border-bottom: 2px solid #d3d9d4;
     padding-bottom: 5px;
   }
   
@@ -127,13 +127,13 @@
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    background: #2E3944;
+    background: #2e3944;
   }
   
   .projects h2 {
     font-size: 20px;
     margin-bottom: 20px;
-    border-bottom: 2px solid #D3D9D4;
+    border-bottom: 2px solid #d3d9d4;
     padding-bottom: 5px;
   }
   
@@ -143,25 +143,25 @@
   }
   
   .project-list p {
-    background: #124E66;
+    background: #124e66;
     padding: 15px;
     margin: 10px 0;
     border-radius: 4px;
     font-size: 20px;
   }
-
+  
   footer {
     width: 100%;
     text-align: center;
     padding: 20px;
-    background: #2E3944;
+    background: #2e3944;
   }
   
   footer a {
     font-size: 20px;
     text-decoration: none;
     color: #333;
-    background: #D3D9D4;
+    background: #d3d9d4;
     border: 2px solid #333;
     padding: 10px 20px;
     border-radius: 4px;
@@ -171,15 +171,71 @@
     background: #333;
     color: #fff;
   }
+  .resume {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    background: #d3d9d4;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .resume:hover {
+    background: #333;
+    color: #fff;
+  }
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: flex-start; 
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #2e3944;
+    color: #d3d9d4;
+  }
+  
+  .submit {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #d3d9d4;
+    color: #2e3944;
+  }
+  .submit:hover {
+    background-color: #2e3944;
+    color: #d3d9d4;
+  }
   
   @media (max-width: 768px) {
     .home {
       flex-direction: column;
       text-align: center;
     }
-    .about-container {
-      flex-direction: column;
-      align-items: center;
+    .form-container {
+      padding: 10px;
     }
   }
   
